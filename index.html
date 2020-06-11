@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Cat Cafe Clicker Game</title>
+</head>
+<body>
+    <h1>Cat Cafe</h1>
+    <div class='intro'>
+        <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSZBFWenBW2Qb06AMDwvsfe0KuiUAhFZBNNZRrBF1-y5ptOGwfv&usqp=CAU'/>
+        <p>How many coins will you get?</p>
+        <p>Your Coins: <span id='money'></span></p>
+        <p>Your Cats: <span id='cats'>0</span></p>
+        <p>Your Baristas: <span id='baristas-number'></span></p>
+    </div>
+    <div class='menu-and-items'>
+        <div class='menu'>
+            <h2>Menu</h2>
+            <ul id='menu-list'>
+            <li class='menu-item'>Coffee <span class='price'>1</span><span class='coin'> coin</span></li>
+            <li class='menu-item'>Iced Tea <span class='price'>1</span><span class='coin'> coin</span></li>
+            </ul>
+        </div>
+        <div class='items-sold'>
+            <h2>Items Sold</h2>
+            <ul id='items-list'>
+            <li class='item'>Coffee <span id='coffee-total'> 0</span></li>
+            <li class='item'>Iced Tea <span id='iced-tea-total'> 0</span></li>
+            </ul>
+        </div>
+    </div>
+    <div class='store'>
+        <h2>Buy Upgrades</h2>
+        <button id='barista-btn'>Hire a Barista (Increases 2 Items Sold): 50 coins</button>
+        <button id='cat-btn'>Buy a Cat (Increases 4 Items Sold): 100 coins</button>
+        <button id='menu-btn'></button>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
