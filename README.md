@@ -18,7 +18,7 @@ The main thing I learned about was using the setInterval method. Plus, the logic
 ## Technologies Used
 
 <ul>
-  <li>Vanilla JavaScript</li>
+  <li>JavaScript</li>
   <li>CSS/Sass</li>
   <li>HTML5</li>
 </ul>
